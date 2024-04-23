@@ -45,7 +45,7 @@ function check_online(id) {
             }, 1000 * 8); // 8s
         },
         error: function() {
-            console.warn("Failed in checking friends's online status!");
+            console.warn("Failed in checking friends online status!");
             setTimeout(() => {
                 check_online(id);
             }, 1000);
