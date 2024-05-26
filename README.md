@@ -13,7 +13,7 @@ end-to-end RSA-4096
 bcrypt (for password hashing)
 
 # Steps in encrypting a message
-1) A 32 bytes (64 hex characters) key are generated with `random_bytes` php function.
+1) A 32 bytes (64 hex characters) key is generated with `random_bytes` php function.
    Using random_bytes in PHP is crucial for generating cryptographically secure bytes because it ensures unpredictability and uniform distribution.
    This is vital for cryptographic applications like key generation, session tokens, or random passwords, enhancing overall security.
 
